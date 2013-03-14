@@ -43,7 +43,7 @@ module Ebay # :nodoc:
       def detail_level=(value)
         @detail_levels = Array(value)
       end
-      
+
       def requester_credentials
         XMLRequesterCredentials.new(:ebay_auth_token => auth_token)
       end
