@@ -263,6 +263,7 @@ module Ebay # :nodoc:
       value_array_node :payment_allowed_sites, 'PaymentAllowedSite', :default_value => []
       text_node :inventory_tracking_method, 'InventoryTrackingMethod', :optional => true
       boolean_node :integrated_merchant_credit_card_enabled, 'IntegratedMerchantCreditCardEnabled', 'true', 'false', :optional => true
+      numeric_node :condition_id, 'ConditionID', :optional => true
     end
   end
 end
